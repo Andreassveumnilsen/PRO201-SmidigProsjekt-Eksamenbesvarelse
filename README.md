@@ -1,4 +1,4 @@
-# bright-web-app
+# PRO201-SmidigProsjekt-Eksamenbesvarelse
 
 ## How to install
 
