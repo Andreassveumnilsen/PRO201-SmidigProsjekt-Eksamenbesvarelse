@@ -1,0 +1,64 @@
+@import 'config';
+@import 'navbar';
+@import 'footer';
+@import 'modal';
+@import 'card';
+@import 'form';
+@import 'welcome';
+@import 'products';
+@import 'header';
+@import 'primary-btn';
+@import 'secondary-btn';
+@import 'report-receipt';
+@import 'video';
+@import 'manuals';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  margin: 1.25rem;
+}
+
+button {
+  border: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: $primary-color;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: $primary-color;
+}
+
+p {
+  font-size: 1.125rem;
+  color: $secondary-color;
+}
+
+@import 'mobile';

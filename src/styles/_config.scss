@@ -1,0 +1,40 @@
+// Variables
+$primary-color: #174a5b;
+$contrast-color: #c3dc93;
+$secondary-color: black;
+
+// Mixins
+@mixin easeOut {
+  transition: all 0.3s ease-out;
+}
+
+@mixin blueBtnHover {
+  background-color: darken($primary-color, 10);
+}
+
+@mixin greenBtnHover {
+  background-color: darken($contrast-color, 15);
+  color: $primary-color;
+}
+
+@mixin textHover {
+  color: darken($contrast-color, 10);
+}
+
+@mixin logoHover {
+  filter: invert(92%) sepia(6%) saturate(2211%) hue-rotate(30deg)
+    brightness(97%) contrast(83%);
+}
+
+// Media Query Mixins
+@mixin mediaMobile {
+  @media screen and (max-width: 769px) {
+    @content;
+  }
+}
+
+@mixin mediaDesktop {
+  @media screen and (min-width: 770px) {
+    @content;
+  }
+}

@@ -1,0 +1,36 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: $primary-color;
+
+  img {
+    filter: brightness(0) invert(1);
+
+    &:hover {
+      @include logoHover;
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: baseline;
+
+    li {
+      margin: 0 0.625rem;
+    }
+
+    a {
+      color: white;
+      @include easeOut;
+
+      &:hover {
+        @include textHover;
+      }
+    }
+  }
+}

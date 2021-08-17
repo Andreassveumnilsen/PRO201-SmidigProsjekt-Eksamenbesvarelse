@@ -1,0 +1,26 @@
+@import 'config';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+  border-radius: 0.625rem;
+  padding: 0.625rem;
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    p {
+      margin-bottom: 12.5rem;
+    }
+  }
+}

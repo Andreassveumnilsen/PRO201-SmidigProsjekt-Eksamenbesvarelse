@@ -1,0 +1,23 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cardImg {
+    max-width: 100px;
+  }
+}

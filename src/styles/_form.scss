@@ -1,0 +1,95 @@
+.form-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+
+  p {
+    margin-bottom: 1.55rem;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.625rem;
+  width: 90%;
+  max-width: 700px;
+  font-size: 1.125rem;
+
+  input,
+  textarea,
+  select,
+  .cb-container {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 5px;
+    border: 2px solid $primary-color;
+
+    &:focus {
+      border-color: $contrast-color;
+    }
+  }
+
+  .form-group {
+    margin-bottom: -1.5rem;
+    input {
+      &:focus + label,
+      &:not(:placeholder-shown) + label {
+        transform: translate(-1rem, -3.8em) scale(0.8);
+        padding-right: 1.5rem;
+      }
+    }
+    label {
+      display: inline-block;
+      width: fit-content;
+      transition: all 0.3s;
+      transform: translateY(-2.3em);
+      margin-left: 1rem;
+      background-color: white;
+    }
+  }
+
+  .invalid {
+    border-color: red;
+    input {
+      border-color: red;
+    }
+  }
+
+  input::placeholder {
+    color: transparent;
+  }
+
+  textarea {
+    resize: none;
+    min-height: 200px;
+  }
+
+  input[type='checkbox'] {
+    width: auto;
+  }
+
+  label,
+  select,
+  textarea::placeholder {
+    color: $primary-color;
+  }
+}
+
+.report {
+  .cb-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    label {
+      margin: 0 50px 0 5px;
+    }
+  }
+
+  .report-form-label {
+    margin-left: 1rem;
+    font-size: 16px;
+  }
+}

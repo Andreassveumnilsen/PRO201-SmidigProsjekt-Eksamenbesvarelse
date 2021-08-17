@@ -1,0 +1,25 @@
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .card {
+    p {
+      margin-bottom: 1rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    button {
+      border-radius: 0;
+
+      &:nth-child(2) {
+        background-color: $contrast-color;
+        color: black;
+      }
+    }
+  }
+}
