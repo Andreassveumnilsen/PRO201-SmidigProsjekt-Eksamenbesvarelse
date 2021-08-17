@@ -1,4 +1,9 @@
 # PRO201-SmidigProsjekt-Eksamenbesvarelse
+Eksamensbesvarelse i faget PPRO201 Smidig ved Høyskolen Kristiania våren 2021
+
+Besvarelsen er resultatet av e tgruppeprosjekt som gikk over et halv år.  Der vi var en gruppe på 8 personer fikk et oppdrag av bedriften Bright-products om å lage rappoteringsverktøy og e-læringsverktøy for reperasjoner av deres lamper. Oppgaven ble sensusrert til en B.  
+
+Vedlagt ligger rapport og designmal.  
 
 ## How to install
 
